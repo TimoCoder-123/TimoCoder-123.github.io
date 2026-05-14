@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Site • Projects</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="nav">
+      <div class="brand">
+        <div class="badge" aria-hidden="true"></div>
+        <span>My Site</span>
+      </div>
+      <nav class="navlinks" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1>Projects</h1>
+      <p>A few things I’ve built. Replace these cards with your real projects.</p>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <h2>Project One</h2>
+        <p>One‑line description of what it does and why it matters.</p>
+        <p class="small">Tech: HTML, CSS, JavaScript</p>
+        <a class="button" href="#">View demo</a>
+      </article>
+
+      <article class="card">
+        <h2>Project Two</h2>
+        <p>One‑line description. Add a screenshot later in <code>assets/images/</code>.</p>
+        <p class="small">Tech: Python, APIs, etc.</p>
+        <a class="button" href="#">View code</a>
+      </article>
+
+      <article class="card full">
+        <h2>More</h2>
+        <p>Link to your GitHub profile for the full list.</p>
+        <a class="button" href="https://github.com/">My GitHub →</a>
+      </article>
+    </section>
+
+    <footer class="footer">
+      <div class="small">© <span id="y"></span> Your Name</div>
+      <div class="small"><a href="contact.html">Contact</a></div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
